@@ -1,4 +1,5 @@
 <h1 align="center">Zakhar D. (Zakharden)</h1>
+<h1 align="center">Захар Двуреченский</h1>
 
 <p align="center">
   <strong>DevOps / SRE / Platform Engineer</strong><br/>
