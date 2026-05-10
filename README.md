@@ -81,6 +81,7 @@
 ## Featured Projects (Pinned)
 
 - [heritage-infra](https://github.com/Zakharden/heritage-infra): end-to-end infra pipeline: VM preparation, Kubernetes automation, GitOps delivery, Helm charts, Vault integration
+- [heritage-cicd](https://github.com/Zakharden/heritage-cicd): reference CI/CD pipeline with quality gates, security scanning, container builds, semantic release, and GitOps delivery
 - [heritage-vm-create](https://github.com/Zakharden/heritage-vm-create): Terraform + Pulumi to spin up project VMs fast (with learning materials and explanations)
 - [social-project](https://github.com/Zakharden/social-project): alternative to LinkedIn (startup MVP; AI-generated baseline)
 - [DB-Interface-childs-policl](https://github.com/Zakharden/DB-Interface-childs-policl): C# interface + MySQL DB for "Children's clinic" (procedures, triggers, functions)
@@ -89,6 +90,22 @@
 
 I decided to make my infrastructure rollout repositories public.
 Each repo includes explanation files and learning guides (LLM-assisted, then curated) so anyone can reproduce the setup and learn from it.
+
+## Public Engineering Direction
+
+I am strengthening my public engineering work around open infrastructure and platform reliability:
+
+- practical Kubernetes and GitOps examples that can be reproduced by other engineers;
+- CI/CD pipelines with explicit quality, security, release, and deployment stages;
+- infrastructure-as-code projects with clear assumptions, local validation, and safety notes;
+- focused open-source pull requests in Kubernetes, GitOps, IaC, observability, and DevSecOps projects.
+
+## Open Source Principles
+
+- Keep contributions small enough to review and useful enough to matter.
+- Prefer reproducible issues, clear docs, tests, examples, and security checks over cosmetic activity.
+- Respect maintainer conventions before introducing new patterns.
+- Track public work through PRs, reviews, release notes, issues, and durable links.
 
 ## About ME
 
