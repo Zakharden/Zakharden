@@ -83,13 +83,13 @@
 - [heritage-infra](https://github.com/Zakharden/heritage-infra): end-to-end infra pipeline: VM preparation, Kubernetes automation, GitOps delivery, Helm charts, Vault integration
 - [heritage-cicd](https://github.com/Zakharden/heritage-cicd): reference CI/CD pipeline with quality gates, security scanning, container builds, semantic release, and GitOps delivery
 - [heritage-vm-create](https://github.com/Zakharden/heritage-vm-create): Terraform + Pulumi to spin up project VMs fast (with learning materials and explanations)
-- [social-project](https://github.com/Zakharden/social-project): alternative to LinkedIn (startup MVP; AI-generated baseline)
+- [social-project](https://github.com/Zakharden/social-project): alternative to LinkedIn (startup MVP baseline)
 - [DB-Interface-childs-policl](https://github.com/Zakharden/DB-Interface-childs-policl): C# interface + MySQL DB for "Children's clinic" (procedures, triggers, functions)
 
 ## Open Infrastructure
 
 I decided to make my infrastructure rollout repositories public.
-Each repo includes explanation files and learning guides (LLM-assisted, then curated) so anyone can reproduce the setup and learn from it.
+Each repo includes explanation files and learning guides with practical notes so anyone can reproduce the setup and learn from it.
 
 ## Public Engineering Direction
 
@@ -99,6 +99,12 @@ I am strengthening my public engineering work around open infrastructure and pla
 - CI/CD pipelines with explicit quality, security, release, and deployment stages;
 - infrastructure-as-code projects with clear assumptions, local validation, and safety notes;
 - focused open-source pull requests in Kubernetes, GitOps, IaC, observability, and DevSecOps projects.
+
+## Open Source Contributions
+
+Merged contributions to upstream projects:
+
+- [prometheus-community/helm-charts #6901](https://github.com/prometheus-community/helm-charts/pull/6901): fixed duplicate `thanos.image` rendering in `kube-prometheus-stack`, preventing duplicate keys in the generated Prometheus custom resource. Merged May 11, 2026.
 
 ## Open Source Principles
 
@@ -113,7 +119,7 @@ I am strengthening my public engineering work around open infrastructure and pla
 Рассматриваю варианты: ЛАТАМ и Европа (удаленка), русскоязычные команды.
 
 Сделал публичными репозитории с раскаткой инфраструктуры (Kubernetes/OpenShift, Terraform, Pulumi, Ansible, Helm, GitOps).
-В каждом репозитории есть файлы с объяснениями и учебные гайды (часть материалов сгенерировала нейросеть, затем я их вычитал и дополнил), чтобы это было полезно всем.
+В каждом репозитории есть файлы с объяснениями и учебные гайды, вычитанные и дополненные практическими заметками, чтобы это было полезно всем.
 
 Ключевые слова: DevOps, SRE, Platform Engineering, Kubernetes, OpenShift, Terraform, Pulumi, Ansible, Jenkins, GitLab CI, Helm, Linux, мониторинг, Grafana, Prometheus, VictoriaMetrics, логирование, PostgreSQL, MS SQL Server, Redis, MongoDB, Patroni, Keepalived, инцидент-менеджмент, постмортемы, FinTech, банки, крипто, блокчейн-ноды, Ethereum, TRON, автоматизация, CI/CD, vibecoding, ML, scikit-learn.
 
