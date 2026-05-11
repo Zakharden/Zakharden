@@ -102,9 +102,24 @@ I am strengthening my public engineering work around open infrastructure and pla
 
 ## Open Source Contributions
 
-Merged contributions to upstream projects:
+Merged upstream contributions:
 
-- [prometheus-community/helm-charts #6901](https://github.com/prometheus-community/helm-charts/pull/6901): fixed duplicate `thanos.image` rendering in `kube-prometheus-stack`, preventing duplicate keys in the generated Prometheus custom resource. Merged May 11, 2026.
+| Project | PR | Contribution | Status |
+| --- | --- | --- | --- |
+| Flux website | [fluxcd/website #2553](https://github.com/fluxcd/website/pull/2553) | Added AWS CodeCommit SSH authentication documentation for Flux `source git` and `bootstrap git` workflows, including IAM SSH key ID usage and RSA/PEM key guidance. Validated with a temporary AWS CodeCommit repository and a kind cluster. | Merged May 11, 2026 |
+| Prometheus Community Helm Charts | [prometheus-community/helm-charts #6901](https://github.com/prometheus-community/helm-charts/pull/6901) | Fixed duplicate `thanos.image` rendering in `kube-prometheus-stack`, preventing duplicate keys in the generated Prometheus custom resource. | Merged May 11, 2026 |
+
+Active upstream PRs under review, last checked May 11, 2026:
+
+| Project | PRs | Area |
+| --- | --- | --- |
+| Prometheus Community Helm Charts | [#6902](https://github.com/prometheus-community/helm-charts/pull/6902), [#6904](https://github.com/prometheus-community/helm-charts/pull/6904), [#6905](https://github.com/prometheus-community/helm-charts/pull/6905) | ThanosRuler environment support, API server dashboard source sync, disabled single-alert PrometheusRule groups |
+| Kubernetes monitoring mixin | [#1219](https://github.com/kubernetes-monitoring/kubernetes-mixin/pull/1219) | Source fix for generated API server dashboard labels |
+| Helm | [#32115](https://github.com/helm/helm/pull/32115), [#32116](https://github.com/helm/helm/pull/32116) | Plugin path-list install behavior and `.helmignore` broken symlink handling |
+| Helm website | [#2105](https://github.com/helm/helm-www/pull/2105) | Release checklist branch clarity |
+| Crossplane | [#7374](https://github.com/crossplane/crossplane/pull/7374) | RBAC manager Helm chart component labels |
+| Kubespray | [#13249](https://github.com/kubernetes-sigs/kubespray/pull/13249) | Cleanup of repeated Ansible default filters |
+| TFLint | [#2522](https://github.com/terraform-linters/tflint/pull/2522), [#2523](https://github.com/terraform-linters/tflint/pull/2523), [#2524](https://github.com/terraform-linters/tflint/pull/2524), [#2525](https://github.com/terraform-linters/tflint/pull/2525) | JUnit formatter, Terraform escaping blocks, recursive diagnostics, rule ignore policy |
 
 ## Open Source Principles
 
