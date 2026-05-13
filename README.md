@@ -107,6 +107,7 @@ Merged upstream contributions:
 | Project | PR | Contribution | Status |
 | --- | --- | --- | --- |
 | bpftrace | [bpftrace/bpftrace #5161](https://github.com/bpftrace/bpftrace/pull/5161) | Added runtime regression coverage for mixed map value types in repeated `for` loops, keeping the follow-up scoped to the verifier/codegen path after maintainer review. | Merged May 13, 2026; reviewed by [@jordalgo](https://github.com/jordalgo) |
+| Kubernetes Mixin | [kubernetes-monitoring/kubernetes-mixin #1219](https://github.com/kubernetes-monitoring/kubernetes-mixin/pull/1219) | Fixed API server Grafana dashboard error budget wording and percentage formatting at the upstream mixin source, so downstream generated dashboards can consume the correction through the normal sync path. | Merged May 13, 2026; approved by [@skl](https://github.com/skl); contributor notice added |
 | Flux website | [fluxcd/website #2553](https://github.com/fluxcd/website/pull/2553) | Added AWS CodeCommit SSH authentication documentation for Flux `source git` and `bootstrap git` workflows, including IAM SSH key ID usage and RSA/PEM key guidance. Validated with a temporary AWS CodeCommit repository and a kind cluster. | Merged May 11, 2026 |
 | Prometheus Community Helm Charts | [prometheus-community/helm-charts #6901](https://github.com/prometheus-community/helm-charts/pull/6901) | Fixed duplicate `thanos.image` rendering in `kube-prometheus-stack`, preventing duplicate keys in the generated Prometheus custom resource. | Merged May 11, 2026 |
 
