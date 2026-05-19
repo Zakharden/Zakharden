@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&height=180&color=gradient&text=Zakhar%20D.%20%2F%20Zakharden&fontAlign=50&fontAlignY=35&desc=DevOps%20%C2%B7%20SRE%20%C2%B7%20Platform%20Engineer%20%C2%B7%20AI-Powered%20Reliability&descAlign=50&descAlignY=55" alt="Zakhar D. / Zakharden — DevOps, SRE, Platform Engineer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&amp;height=180&amp;color=gradient&amp;text=Zakhar%20D.%20%2F%20Zakharden&amp;fontAlign=50&amp;fontAlignY=35&amp;desc=DevOps%20%C2%B7%20SRE%20%C2%B7%20Platform%20Engineer%20%C2%B7%20AI-Powered%20Reliability&amp;descAlign=50&amp;descAlignY=55" alt="Zakhar D. / Zakharden — DevOps, SRE, Platform Engineer" />
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Zakharden-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/zakharden/)
 [![GitHub](https://img.shields.io/badge/GitHub-Zakharden-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Zakharden)
@@ -176,23 +176,25 @@ Merged upstream contributions focused on Kubernetes, Helm charts, observability,
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=Zakharden&theme=algolia&no-frame=true&no-bg=true&row=1&column=6" alt="GitHub trophies" />
+<img src="https://github-profile-trophy.vercel.app/?username=Zakharden&amp;theme=algolia&amp;no-frame=true&amp;no-bg=true&amp;row=1&amp;column=6" alt="GitHub trophies" />
 
 <br/>
 <br/>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=Zakharden&show_icons=true&hide_border=true&rank_icon=github&include_all_commits=true" alt="GitHub stats" />
-<img height="165" src="https://github-readme-streak-stats.herokuapp.com/?user=Zakharden&hide_border=true" alt="GitHub streak" />
+<a href="https://github.com/Zakharden?tab=followers">
+  <img src="https://img.shields.io/github/followers/Zakharden?style=for-the-badge&amp;logo=github&amp;label=Followers" alt="GitHub followers" />
+</a>
+<a href="https://github.com/Zakharden?tab=repositories">
+  <img src="https://img.shields.io/badge/Public%20Repos-Open%20Infrastructure-2ea44f?style=for-the-badge&amp;logo=github" alt="Open infrastructure repositories" />
+</a>
+<a href="https://github.com/Zakharden?tab=pull-requests">
+  <img src="https://img.shields.io/badge/Open%20Source-Merged%20PRs-orange?style=for-the-badge&amp;logo=github" alt="Open source merged PRs" />
+</a>
 
 <br/>
 <br/>
 
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Zakharden&layout=compact&hide_border=true&langs_count=8" alt="Top languages" />
-
-<br/>
-<br/>
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=Zakharden&hide_border=true&area=true" alt="GitHub activity graph" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=Zakharden&amp;theme=dark&amp;hide_border=true" alt="GitHub contribution streak" />
 
 <br/>
 <br/>
@@ -201,6 +203,8 @@ Merged upstream contributions focused on Kubernetes, Helm charts, observability,
 ![Incidents](https://img.shields.io/badge/incidents-RCA%20driven-111111?style=for-the-badge)
 ![Delivery](https://img.shields.io/badge/delivery-rollback%20aware-2ea44f?style=for-the-badge)
 ![AI Ops](https://img.shields.io/badge/AI--powered-operations-8A2BE2?style=for-the-badge)
+![FinTech](https://img.shields.io/badge/FinTech-production%20reliability-0A66C2?style=for-the-badge)
+![Startups](https://img.shields.io/badge/Startups-MVP%20to%20Production-FF6B00?style=for-the-badge)
 
 </div>
 
