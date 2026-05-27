@@ -64,6 +64,8 @@ Merged upstream contributions focused on Kubernetes, Helm charts, observability,
 
 | Project | PR | What changed | Status |
 |---|---|---|---|
+| Kubespray | [#13249](https://github.com/kubernetes-sigs/kubespray/pull/13249) | Removed duplicated inline fallback defaults from selected download and Kubernetes preinstall role paths, relying on configured role defaults while keeping behavior unchanged. | Merged · May 27, 2026 |
+| Prometheus Community Helm Charts | [#6902](https://github.com/prometheus-community/helm-charts/pull/6902) | Added `kube-prometheus-stack` support for `ThanosRuler` `extraEnv` through a strategic merge patch path for cleaner Ruler deployment extension. | Merged · May 22, 2026 |
 | Open Policy Agent / Gatekeeper | [#4557](https://github.com/open-policy-agent/gatekeeper/pull/4557) | Fixed Helm webhook `namespaceSelector` rendering so generated exempt label values are quoted and stay stable as strings. | Merged · May 19, 2026 |
 | Prometheus Community Helm Charts | [#6905](https://github.com/prometheus-community/helm-charts/pull/6905) | Fixed invalid `kube-prometheus-stack` `PrometheusRule` rendering when single-alert default rule groups are disabled; updated generated rules and tests. | Merged · May 17, 2026 |
 | Prometheus Community Helm Charts | [#6906](https://github.com/prometheus-community/helm-charts/pull/6906) | Fixed `KubeletDown` alert generation with additional aggregation labels to avoid false positives for healthy kubelets. | Merged · May 16, 2026 |
@@ -71,10 +73,6 @@ Merged upstream contributions focused on Kubernetes, Helm charts, observability,
 | Kubernetes Mixin | [#1219](https://github.com/kubernetes-monitoring/kubernetes-mixin/pull/1219) | Fixed API server Grafana dashboard error-budget wording and percentage formatting at the upstream mixin source. | Merged · May 13, 2026 |
 | Flux website | [#2553](https://github.com/fluxcd/website/pull/2553) | Added AWS CodeCommit SSH authentication documentation for Flux `source git` and `bootstrap git` workflows. | Merged · May 11, 2026 |
 | Prometheus Community Helm Charts | [#6901](https://github.com/prometheus-community/helm-charts/pull/6901) | Fixed duplicate `thanos.image` rendering in `kube-prometheus-stack` generated Prometheus custom resources. | Merged · May 11, 2026 |
-
-**Principle:** small enough to review, useful enough to matter; reproducible fixes, tests/docs where they reduce operational risk, and respect for maintainer conventions.
-
----
 
 ## Featured Engineering Work
 
