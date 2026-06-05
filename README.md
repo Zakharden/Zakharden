@@ -64,6 +64,10 @@ Merged upstream contributions focused on Kubernetes, Helm charts, observability,
 
 | Project | PR | What changed | Status |
 |---|---|---|---|
+| TFLint | [#2538](https://github.com/terraform-linters/tflint/pull/2538) | Made JUnit testcase names uniquely identifiable by including source ranges, replacing the earlier formatter approach from [#2522](https://github.com/terraform-linters/tflint/pull/2522). | Merged · June 5, 2026 |
+| TFLint | [#2525](https://github.com/terraform-linters/tflint/pull/2525) | Added an ignorable-rule configuration path so selected rule findings can be treated as non-blocking while preserving normal issue reporting behavior. | Merged · June 5, 2026 |
+| TFLint | [#2524](https://github.com/terraform-linters/tflint/pull/2524) | Fixed recursive inspection issue reporting so no-range diagnostics retain the worker directory context and point at the correct file path. | Merged · June 5, 2026 |
+| K8sGPT | [#1650](https://github.com/k8sgpt-ai/k8sgpt/pull/1650) | Added Azure OpenAI API version override support across auth and serve flows, with focused coverage for configuration propagation and provider behavior. | Merged · June 4, 2026 |
 | Kubespray | [#13249](https://github.com/kubernetes-sigs/kubespray/pull/13249) | Removed duplicated inline fallback defaults from selected download and Kubernetes preinstall role paths, relying on configured role defaults while keeping behavior unchanged. | Merged · May 27, 2026 |
 | Prometheus Community Helm Charts | [#6902](https://github.com/prometheus-community/helm-charts/pull/6902) | Added `kube-prometheus-stack` support for `ThanosRuler` `extraEnv` through a strategic merge patch path for cleaner Ruler deployment extension. | Merged · May 22, 2026 |
 | Open Policy Agent / Gatekeeper | [#4557](https://github.com/open-policy-agent/gatekeeper/pull/4557) | Fixed Helm webhook `namespaceSelector` rendering so generated exempt label values are quoted and stay stable as strings. | Merged · May 19, 2026 |
