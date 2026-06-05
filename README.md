@@ -29,6 +29,7 @@ I focus on production-grade platforms where releases are repeatable, systems are
 
 - **Platform Engineering:** Kubernetes, OpenShift, Helm, Argo CD, GitOps, Docker, Linux, KubeVirt pet-project exposure, multi-environment and hybrid infrastructure patterns.
 - **SRE / Production Reliability:** incident response, RCA, high availability, automated failover, zero-downtime migrations, SLI/SLO thinking, error budgets, release reliability, BC/DR readiness.
+- **AWS Cloud Infrastructure:** VPC design, IAM least privilege, EC2, EKS, RDS, S3, ALB/NLB, Route 53, ACM, CloudWatch, SSM/Secrets Manager, Terraform-managed environments, private networking, security groups, backups and cost-aware operations.
 - **CI/CD & Release Engineering:** Jenkins, GitLab CI/CD, GitHub Actions, canary deployments, automated rollbacks, quality gates, security-scan stages, deployment scripts and controlled production changes.
 - **IaC & Automation:** Terraform, OpenTofu, Pulumi, Ansible, Python, Bash, repeatable VM/platform provisioning, multi-data-centre and on-prem/cloud-connected automation.
 - **Stateful Platforms:** PostgreSQL, Patroni, etcd, PgBouncer, Envoy, Redis, MongoDB, MinIO, Kafka, Debezium, backups, restore readiness, replication, failover and query/index troubleshooting.
@@ -160,6 +161,13 @@ Merged upstream contributions focused on Kubernetes, Helm charts, observability,
 ### Cloud / Product / Languages
 
 ![AWS](https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![Amazon EKS](https://img.shields.io/badge/Amazon%20EKS-FF9900?style=for-the-badge&logo=amazoneks&logoColor=white)
+![Amazon EC2](https://img.shields.io/badge/Amazon%20EC2-FF9900?style=for-the-badge&logo=amazonec2&logoColor=white)
+![Amazon RDS](https://img.shields.io/badge/Amazon%20RDS-527FFF?style=for-the-badge&logo=amazonrds&logoColor=white)
+![Amazon S3](https://img.shields.io/badge/Amazon%20S3-569A31?style=for-the-badge&logo=amazons3&logoColor=white)
+![AWS IAM](https://img.shields.io/badge/AWS%20IAM-DD344C?style=for-the-badge&logo=amazoniam&logoColor=white)
+![VPC](https://img.shields.io/badge/VPC%20%2F%20Networking-232F3E?style=for-the-badge&logo=amazonwebservices&logoColor=white)
+![CloudWatch](https://img.shields.io/badge/CloudWatch-FF4F8B?style=for-the-badge&logo=amazoncloudwatch&logoColor=white)
 ![GCP](https://img.shields.io/badge/GCP-4285F4?style=for-the-badge&logo=googlecloud&logoColor=white)
 ![Yandex Cloud](https://img.shields.io/badge/Yandex%20Cloud-5282FF?style=for-the-badge)
 ![On-Prem](https://img.shields.io/badge/On--Prem%20Infrastructure-111111?style=for-the-badge)
