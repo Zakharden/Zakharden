@@ -62,9 +62,14 @@ I focus on production-grade platforms where releases are repeatable, systems are
 ## Open Source Impact
 
 Merged upstream contributions focused on Kubernetes, Helm charts, observability, GitOps documentation, dashboard correctness and runtime regression coverage.
+Status refreshed: August 19, 2026.
 
 | Project | PR | What changed | Status |
 |---|---|---|---|
+| KubeLinter | [#1179](https://github.com/stackrox/kube-linter/pull/1179) | Fixed update strategy default handling so lint behavior follows Kubernetes defaults without producing incorrect findings for omitted rollout settings. | Merged · July 3, 2026 |
+| KubeLinter | [#1178](https://github.com/stackrox/kube-linter/pull/1178) | Updated `run-as-non-root` checks to flag explicit root group configuration, closing a policy gap around pod/container security context validation. | Merged · July 3, 2026 |
+| Open Policy Agent / Gatekeeper | [#4560](https://github.com/open-policy-agent/gatekeeper/pull/4560) | Preserved admission operation data for expanded reviews, with regression coverage across admission review normalization paths. | Merged · June 17, 2026 |
+| Open Policy Agent / Gatekeeper | [#4556](https://github.com/open-policy-agent/gatekeeper/pull/4556) | Clarified validation and mutation scope across Gatekeeper docs, including versioned documentation, after maintainer review. | Merged · June 10, 2026 |
 | TFLint | [#2538](https://github.com/terraform-linters/tflint/pull/2538) | Made JUnit testcase names uniquely identifiable by including source ranges, replacing the earlier formatter approach from [#2522](https://github.com/terraform-linters/tflint/pull/2522). | Merged · June 5, 2026 |
 | TFLint | [#2525](https://github.com/terraform-linters/tflint/pull/2525) | Added an ignorable-rule configuration path so selected rule findings can be treated as non-blocking while preserving normal issue reporting behavior. | Merged · June 5, 2026 |
 | TFLint | [#2524](https://github.com/terraform-linters/tflint/pull/2524) | Fixed recursive inspection issue reporting so no-range diagnostics retain the worker directory context and point at the correct file path. | Merged · June 5, 2026 |
